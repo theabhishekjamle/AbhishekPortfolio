@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
-
+import ProjectVideo from "../sub/ProjectVideo";
 const Projects = () => {
   return (
     <div
@@ -11,21 +11,28 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        {/* <ProjectVideo
+          src="/blackhole.webm"
+          title="fit-Guys Gym Management"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+         */}
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
+          src="/GYM.png"
+          title="Gym Management"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
+          src="/Code-library.png"
+          title="Coding Library"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
+          src="/justsolution.png"
+          title="JustSolution Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
+        
       </div>
     </div>
   );

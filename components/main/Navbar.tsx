@@ -2,6 +2,7 @@ import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
+
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
@@ -11,7 +12,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/aj-logo.png"
             alt="logo"
             width={70}
             height={70}
@@ -19,7 +20,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Abhishek Jamle
           </span>
         </a>
 
@@ -31,21 +32,34 @@ const Navbar = () => {
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
+
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="#contacts" className="cursor-pointer">
+              Contact
             </a>
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        {/* Social Media Icons */}
+        <div className="flex gap-5 items-center">
           {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
+            <a
               key={social.name}
-              width={24}
-              height={24}
-            />
+              href={social.Labhi || social.href} // Use Labhi if available, otherwise href
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <Image
+                src={social.src}
+                alt={social.name}
+                width={24}
+                height={24}
+                className="hover:scale-110 transition-transform"
+              />
+            </a>
           ))}
         </div>
       </div>

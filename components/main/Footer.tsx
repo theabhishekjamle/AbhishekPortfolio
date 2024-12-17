@@ -17,48 +17,59 @@ const Footer = () => {
                 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
+                    <div className="font-bold text-[16px]">Community <a href="http://"></a></div>
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="https://youtube.com/@abhishekjamle" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                            <FaYoutube />
+                            <span className="text-[15px] ml-[6px]">Youtube</span>    
+                        </a>
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="https://github.com/theabhishekjamle" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                            <RxGithubLogo />
+                            <span className="text-[15px] ml-[6px]">Github</span>    
+                        </a>
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="https://discord.com/users/theabhishekjamle" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                            <RxDiscordLogo />
+                            <span className="text-[15px] ml-[6px]">Discord</span>    
+                        </a>
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="https://instagram.com/iabhishekjamle" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                            <RxInstagramLogo />
+                            <span className="text-[15px] ml-[6px]">Instagram</span>    
+                        </a>
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                            <RxTwitterLogo />
+                            <span className="text-[15px] ml-[6px]">Twitter</span>    
+                        </a>
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="https://www.linkedin.com/in/abhishek-jamle-86925726b/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                            <RxLinkedinLogo />
+                            <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        </a>
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                     
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
                         <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                      
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="mailto:abhishekjamle007@gmail.com" className="flex items-center">
+                            <span className="text-[15px] ml-[6px]">abhishekjamle007@gmail.com</span>    
+                        </a>
                     </p>
                 </div>
             </div>

@@ -51,7 +51,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
          variants={slideInFromLeft(1)}
-         href="https://drive.google.com/file/d/1N4yxrbGuNZrjYtCzeUidcKUHV7D8tCkY/view?usp=drive_link"
+         href="https://drive.google.com/file/d/1WraWuzPQmkYWNCPZ8evD7ozRE34fn_qo/view?usp=sharing"
          target="_blank"  // Opens in a new tab
          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
          Resume

@@ -1,1 +1,0 @@
-mongodb+srv://abhishekjamle007:QU0eqUfgZtlPuWwN@abhishekportfolio.ycacjs6.mongodb.net/?retryWrites=true&w=majority&appName=AbhishekPortfolio

@@ -23,9 +23,9 @@ app.post("/api/contact", async (req, res) => {
   try {
     const newContact = new Contact(req.body);
     await newContact.save();
-    res.status(201).json({ message: "Message saved successfully" });
+    res.status(201).json({ message: "Thanks for Your Response" });
   } catch (err) {
-    res.status(500).json({ error: "Failed to save message" });
+    res.status(500).json({ error: "! Please Try Again Later" });
   }
 });
 
